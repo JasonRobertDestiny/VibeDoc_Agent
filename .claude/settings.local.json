@@ -19,7 +19,11 @@
       "Bash(echo $SILICONFLOW_API_KEY)",
       "Bash(git remote remove origin)",
       "Bash(git remote add origin https://github.com/JasonRobertDestiny/VibeDoc_Agent.git)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"🚀 VibeDoc Agent - 完整魔塔MCP服务集成\n\n✅ 核心功能:\n- 集成异步MCP服务 (Fetch + DeepWiki)\n- 智能服务路由和自动降级\n- AI开发方案生成 (Qwen2.5-72B-Instruct)\n- 完整Gradio界面和多格式导出\n\n🔧 技术特点:\n- 零配置MCP服务 (硬编码URL)\n- 支持HTTP 202异步处理 + SSE流\n- 魔塔平台优化部署\n- 完整的错误处理和重试机制\n\n🎯 部署就绪:\n- 只需配置 SILICONFLOW_API_KEY 环境变量\n- 支持魔塔创空间和GitHub同步部署\n- 项目文件已整理，测试文件已清理\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")",
+      "Bash(git push -u origin master)",
+      "Bash(git pull origin master --allow-unrelated-histories)",
+      "Bash(git pull origin master --allow-unrelated-histories --no-rebase)"
     ],
     "deny": [],
     "ask": []
