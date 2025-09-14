@@ -15,7 +15,11 @@
       "Bash(python -c \"import gradio; print(''Gradio version:'', gradio.__version__)\")",
       "Bash(pip install --break-system-packages markdown python-docx)",
       "Bash(export SILICONFLOW_API_KEY=sk-fxeehbzkospkgoluchoqgxgkszkjaluozkohofghkzrqianx)",
-      "Bash(pip install --break-system-packages html2text reportlab)"
+      "Bash(pip install --break-system-packages html2text reportlab)",
+      "Bash(echo $SILICONFLOW_API_KEY)",
+      "Bash(git remote remove origin)",
+      "Bash(git remote add origin https://github.com/JasonRobertDestiny/VibeDoc_Agent.git)",
+      "Bash(git add .)"
     ],
     "deny": [],
     "ask": []
